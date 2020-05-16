@@ -1,0 +1,14 @@
+body {
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin:auto;
+    font-family: 'Noto Sans SC', sans-serif;
+    background-image: url(./Assets/org.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+  } 
+    
+    header{
+      border-bottom: 4px solid crimson;
+    }
