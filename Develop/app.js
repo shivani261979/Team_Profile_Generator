@@ -12,7 +12,6 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const employees = [];
 
-
 function addMember() {
    
    inquirer.prompt([{
@@ -82,6 +81,7 @@ function addMember() {
                   createHtml();
                }
          });
+   
    });
 }
 
@@ -101,8 +101,9 @@ function createHtml() {
            console.log(`Failed to create file - ${outputPath}. Error - ${err}`);
       } else {
          console.log(`Successfully created html file - ${outputPath}`);
-      }
+      }      
    });
+
 }
 
 function main(){

@@ -1,14 +1,35 @@
-body {
-    position: absolute;
-    display: block;
-    width: 100%;
-    margin:auto;
-    font-family: 'Noto Sans SC', sans-serif;
-    background-image: url(./Assets/org.jpg);
-    background-size:cover;
-    background-repeat: repeat;
-  } 
-    
-    header{
-      border-bottom: 4px solid crimson;
-    }
+body{
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin:auto;
+  font-family: 'Noto Sans SC', sans-serif;
+  background-image: url(./Asset/org.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+} 
+  
+  header{
+    border-bottom: 4px solid crimson;
+  }
+
+  .employee-card {
+    background-color: rgb(106, 167, 182);
+
+  }
+
+  .card-body{
+    background-color: cadetblue;
+
+  }
+
+  .jumbotron{
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: rgb(106, 148, 182);
+  
+  }
